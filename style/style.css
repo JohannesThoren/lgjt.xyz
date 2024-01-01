@@ -1,26 +1,55 @@
+ul,
+li {
+  all: unset
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-article {
-  width: 20rem;
-  margin-inline: auto;
-
+script,
+head {
+  display: none;
 }
 
-.ContentWrapper {
-  width: min(30rem, 80%);
-  margin-inline: auto;
-}
 
 #header {
-  background-color: black;
+
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#header>h1 {
-  color: white;
-  padding: unset;
-  margin: unset
+#header-text {
+  margin: 1rem;
+  font-size: 30pt;
+}
+
+#nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-item {
+  font-size: 14pt;
+  width: min(15rem, 100%);
+  text-align: center;
+  transition: .2s;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: grey;
+  text-decoration: underline;
+}
+
+#content {
+  margin-top: 5rem;
+  text-align: center;
+  display: block;
 }
