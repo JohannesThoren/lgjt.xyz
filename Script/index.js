@@ -12,7 +12,7 @@ const TextContent = {
     websiteLicensing: {
       t1: "This policy applies to all websites under the domain lgjt.xyz. This includes the following websites:",
 
-      t2: `Content authored by me (Johannes Thorén) on the websites is all copyright (C) Johannes Thorén and all avaliable under the ''CC BY-NC-SA 4.0 Deed'' license. 
+      t2: `Content authored by me (Johannes Thorén) on the websites is all copyright (C) Johannes Thorén and all avaliable under the ''CC BY-NC-SA 4.0 Deed'' license.
           Exceptions to this are: (1) software published on this page (in code or binary format) produced me. 
           (2) re-published software or content created by other people, companies or foundations. (3) content that have another licensing notice.`,
 
