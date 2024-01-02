@@ -17,6 +17,7 @@ head {
 #content {
   width: min(50rem, 90%);
   margin-inline: auto;
+  margin-bottom: 1rem;
 }
 
 #header {
