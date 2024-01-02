@@ -1,5 +1,4 @@
-ul,
-li {
+ul {
   all: unset
 }
 
@@ -14,9 +13,12 @@ head {
   display: none;
 }
 
+#content {
+  width: min(50rem, 90%);
+  margin-inline: auto;
+}
 
 #header {
-
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -24,32 +26,32 @@ head {
 }
 
 #header-text {
-  margin: 1rem;
   font-size: 30pt;
 }
 
 #nav {
+  margin: .5rem;
   width: 100vw;
   display: flex;
   justify-content: center;
   gap: 1rem;
+  list-style-type: none;
+  padding: 0px;
 }
 
 .nav-item {
-  font-size: 14pt;
-  width: min(15rem, 100%);
   text-align: center;
+  width: min(10rem, 100%);
+}
+
+.nav-item>a {
+  color: black;
+  text-decoration: none;
   transition: .2s;
 }
 
-.nav-item:hover {
-  cursor: pointer;
+.nav-item>a:hover {
   color: grey;
-  text-decoration: underline;
-}
 
-#content {
-  margin-top: 5rem;
-  text-align: center;
-  display: block;
+  text-decoration: underline;
 }
