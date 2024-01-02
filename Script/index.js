@@ -14,7 +14,7 @@ const TextContent = {
             on this website and website  all other webistes using the ''lgjt.xyz'' domain is copyright Johannes Thorén. 
             With website meaning, but not limited to:`,
 
-      t2: `All content authored or originaly published by me on this page such as text, images, videos pdfs and documents are all licensed under the ''CC BY-NC-SA 4.0 Deed''. 
+      t2: `All content authored or originaly published by me on this page such as text, images, videos pdfs and documents are all licensed under the ''CC BY-NC-SA 4.0''. 
             Exceptions to content not using the CC BY-NC-SA 4.0 license are: (1) software published in code or binary format. (2) Content that excplicity states the use of another license.
             (3) Content not originaly authored by me.`,
 
