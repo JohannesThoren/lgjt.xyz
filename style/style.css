@@ -2,6 +2,7 @@ ul {
   all: unset
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -54,4 +55,8 @@ head {
   color: grey;
 
   text-decoration: underline;
+}
+
+#list-of-websites * {
+  margin-left: 2rem;
 }

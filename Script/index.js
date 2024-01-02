@@ -10,15 +10,18 @@ const TextContent = {
 
     sourceCode: `The source code of this page can be found on github`,
     websiteLicensing: {
-      t1: "This policy applies to all websites under the domain lgjt.xyz. This includes the following websites:",
+      t1:   `The following policies are applied to the content authored and published by me, 
+            on this website and website  all other webistes using the ''lgjt.xyz'' domain is copyright Johannes Thorén. 
+            With website meaning, but not limited to:`,
 
-      t2: `Content authored by me (Johannes Thorén) on the websites is all copyright (C) Johannes Thorén and all avaliable under the ''CC BY-NC-SA 4.0 Deed'' license.
-          Exceptions to this are: (1) software published on this page (in code or binary format) produced me. 
-          (2) re-published software or content created by other people, companies or foundations. (3) content that have another licensing notice.`,
+      t2:   `All content authored or originaly published by me on this page such as text, images, videos pdfs and documents are all licensed under the ''CC BY-NC-SA 4.0 Deed''. 
+            Exceptions to content not using the CC BY-NC-SA 4.0 license are: (1) software published in code or binary format. (2) Content that excplicity states the use of another license.
+            (3) Content not originaly authored by me.`,
 
-      t3: `You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation . `,
+      t3:   `You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation . `,
 
-      t4: `No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material. `
+      t4:   `No warranties are given. The license may not give you all of the permissions necessary for your intended use. 
+            For example, other rights such as publicity, privacy, or moral rights may limit how you use the material. `
     }
   }
 }
@@ -59,7 +62,7 @@ const AboutPage = () => {
       Div(
         H("Website Licensing", 2),
         P(TextContent.about.websiteLicensing.t1),
-        Ul(Li(A("https://lgjt.xyz"))),
+        Ul(Li(A("https://lgjt.xyz", "https://lgjt.xyz"))).Id("list-of-websites"),
         P(TextContent.about.websiteLicensing.t2),
         H("Copyright Notice", 3),
         P(TextContent.about.websiteLicensing.t3),
