@@ -19,6 +19,7 @@
 
 	import home from './pages/Home.svelte';
 	import about from './pages/About.svelte';
+	import repos from './pages/Repositories.svelte';
 
 	export let url = '';
 </script>
@@ -40,19 +41,20 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item"><Link class="nav-link" to="Contact">Contact</Link></li>
-					<li class="nav-item"><Link class="nav-link" to="About">About</Link></li>
+					<li class="nav-item"><Link class="nav-link" to="contact">Contact</Link></li>
+					<li class="nav-item"><Link class="nav-link" to="about">About</Link></li>
+					<li class="nav-item"><Link class="nav-link" to="repos">Repositories</Link></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<div>
 		<Route path="/" component={home}></Route>
-		<Route path="/Contact" component={home}></Route>
-		<Route path="/About" component={about}></Route>
+		<Route path="/contact" component={home}></Route>
+		<Route path="/about" component={about}></Route>
+		<Route path="/repos" component={repos}></Route>
 	</div>
 </Router>
 
 <style>
-  
 </style>

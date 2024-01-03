@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-main {
 
-    width: min(50rem, 90%);
+main {
+    width: min(60rem, 90%);
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-inline: auto;
