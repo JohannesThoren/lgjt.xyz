@@ -20,6 +20,7 @@
 	import home from './pages/Home.svelte';
 	import about from './pages/About.svelte';
 	import repos from './pages/Repositories.svelte';
+	import contact from './pages/Contact.svelte';
 
 	export let url = '';
 </script>
@@ -50,7 +51,7 @@
 	</nav>
 	<div>
 		<Route path="/" component={home}></Route>
-		<Route path="/contact" component={home}></Route>
+		<Route path="/contact" component={contact}></Route>
 		<Route path="/about" component={about}></Route>
 		<Route path="/repos" component={repos}></Route>
 	</div>
