@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "deploy": "npm run build && gh-pages --cname lgjt.xyz -r https://github.com/JohannesThoren/lgjt.xyz -d dist -m auto generated commit by gh-pages"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.1",
