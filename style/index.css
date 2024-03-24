@@ -1,0 +1,11 @@
+#name-text {
+    font-size: 36pt;
+}
+
+
+@media screen and (max-width: 800px) {
+    #name-text {
+        font-size: 24pt;
+    }
+
+}
