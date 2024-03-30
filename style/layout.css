@@ -10,3 +10,15 @@
   /*animation can be found in animatiolns.css*/
   animation: fade-in 2s;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .center-div {
+    width: min(40rem, 90%);
+    position: unset;
+    display: block;
+    transform: unset;
+    margin-inline: auto;
+    margin-top: 5vh;
+  }
+}
