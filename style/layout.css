@@ -21,3 +21,14 @@
     margin-top: 5vh;
   }
 }
+
+@media screen and (max-height: 1000px) {
+  .center-div-cv {
+    width: min(40rem, 90%);
+    position: unset;
+    display: block;
+    transform: unset;
+    margin-inline: auto;
+    margin-top: 5vh;
+  }
+}
