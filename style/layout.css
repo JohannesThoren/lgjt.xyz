@@ -11,9 +11,8 @@
   animation: fade-in 2s;
 }
 
-
 @media screen and (max-width: 1000px) {
-  .center-div {
+  .center-div-cv {
     width: min(40rem, 90%);
     position: unset;
     display: block;
