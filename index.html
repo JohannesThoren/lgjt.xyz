@@ -2,31 +2,65 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LGJT.XYZ</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style/page/index.css">
-  <script src="scripts/AddFooter.js"></script>
-  <script src="scripts/AddNav.js"></script>
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to the personal website of Johannes Thorén, a hobbyist web and software developer currently working as a network engineer. Explore my portfolio, find interesting resources, and get in touch with me." />
+
+    <title>LGJT.XYZ</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body>
-  <header>
-    <h1><a href="/">LGJT.XYZ</a>/</h1>
+<body class="center-content flex-direction-column ">
+    <header id="page-header" class="page-width">
+        <h1>Johannes Thorén</h1>
+        <p>Hobby web & software developer, currently working as a network engineer.</p>
+        <nav>
+            <a href="ListOfInterestingStuff.html">List of Interesting Stuff</a>
+            <a href="Portfolio.html">Portfolio</a>
+        </nav>
+    </header>
 
-  </header>
+    <main id="page-content" class="page-width">
+        <section id="links" class="width-full">
+            <h2>Find me here</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/JohannesThoren">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/johannes.thoren">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.threads.net/@johannes.thoren">Threads</a>
+                </li>
+            </ul>
+        </section>
 
-  <main>
-    <div id="me-div" class="center-div">
-      <h2 id="name-text">Johannes Thorén</h2>
-      <hr>
-      <p>Junior Network Engineer + Hobby Web & Software Developer</p>
-    </div>
-  </main>
+        <section id="contact" class="width-full">
+            <h2>Contact</h2>
+            <p>The only "official" way to contact me is via email. For business-related inquiries, please use <a
+                    href="mailto:business@lgjt.xyz">business@lgjt.xyz</a>. For any other contact, please use <a
+                    href="mailto:johannes@lgjt.xyz">johannes@lgjt.xyz</a>. Below, you will find the public PGP keys
+                for secure and private email communication. </p>
+            <h3>My Public Keys</h3>
+            <ul>
+                <li>
+                    <span>Johannes@lgjt.xyz</span> - <a class="no-decor" href="/public/johannes@lgjt.acs">[DOWNLOAD]</a>
+                    <a class="no-decor" href="/public/johannes@lgjt.txt">[VIEW]</a>
+                </li>
+                <li>
+                    <span>Business@lgjt.xyz</span> - <a class="no-decor" href="/public/business@lgjt.acs">[DOWNLOAD]</a>
+                    <a class="no-decor" href="/public/business@lgjt.txt">[VIEW]</a>
+                </li>
+            </ul>
+        </section>
+    </main>
 
-
+    <footer class="footer page-width">
+        Copyright (C) 2024 Johannes Thorén. Thank you for visiting my page. For more information, feel free to contact
+        me.
+    </footer>
 </body>
 
 </html>
