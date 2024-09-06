@@ -1,9 +1,10 @@
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     background-color: black;
     color: #00FF00;
     margin: 0;
