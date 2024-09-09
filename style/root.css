@@ -1,0 +1,12 @@
+:root {
+    --header-height: 10dvh;
+    --header-inline-padding: 1rem;
+    --content-height: 82dvh;
+    --footer-height: 8dvh;
+
+    --text-color: #252222;
+    --background-color: #f5f2f2;
+
+    color: var(--text-color);
+    font-family: sans-serif;
+}

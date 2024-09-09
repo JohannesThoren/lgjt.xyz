@@ -1,34 +1,48 @@
-.center-div {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  /* this roule should cover 99% of all screen sizes*/
-  width: min(40rem, 90%);
-
-  /*animation can be found in animatiolns.css*/
-  animation: fade-in 2s;
+.page-header {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: var(--header-inline-padding) !important;
 }
 
-@media screen and (max-width: 1000px) {
-  .center-div-cv {
-    width: min(40rem, 90%);
-    position: unset;
-    display: block;
-    transform: unset;
-    margin-inline: auto;
-    margin-top: 5vh;
-  }
+
+
+.nav>ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
 }
 
-@media screen and (max-height: 1000px) {
-  .center-div-cv {
-    width: min(40rem, 90%);
-    position: unset;
-    display: block;
-    transform: unset;
-    margin-inline: auto;
-    margin-top: 5vh;
+.nav>ul>li {
+  margin-inline: 1dvw;
+}
+
+.content {
+  height: var(--content-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  row-gap: 1rem;
+}
+
+.content > * {
+  max-height: 80dvh;
+  width: min(40rem, 95dvw);
+}
+
+.footer {
+  height: var(--footer-height);
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 801px) {
+  .page-header {
+      display: block !important;
   }
+
 }
