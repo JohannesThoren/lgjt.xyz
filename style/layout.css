@@ -27,6 +27,8 @@
   align-items: center;
   overflow-y: auto;
   row-gap: 1rem;
+  animation-name: fade-in;
+  animation-duration: 1s;
 }
 
 .content > * {
