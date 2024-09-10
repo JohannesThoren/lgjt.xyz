@@ -42,9 +42,19 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 800px) {
   .page-header {
       display: block !important;
+  }
+
+}
+
+@media screen and (max-height: 600px) and (max-width: 800px) {
+  .page-header {
+    height: var(--small-screen-header-height) !important;
+  }
+  .content {
+    height: var(--small-screen-content-height) !important;
   }
 
 }
