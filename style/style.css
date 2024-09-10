@@ -45,17 +45,35 @@ section>h1 {
     display: block;
     padding: var(--padding-y);
     padding-inline: var(--padding-x);
-    text-decoration: none;
     color: var(--text-color);
     overflow: hidden;
 }
 
-
 .nav-item>a:visited {
-    text-decoration: none;
     color: var(--text-color)
 }
 
 .nav-item:hover {
     background-color: var(--background-color-2);
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,td,tr {
+    min-width: 5dvw;
+    width: 100%;
+    border-bottom: 1px solid var(--background-color-3);
+
+}
+th {
+    text-align: left;
+}
+td {
+    text-align: right;
 }
