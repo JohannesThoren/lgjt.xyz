@@ -7,11 +7,22 @@
     --small-screen-header-height: 20dvh;
     --small-screen-content-height: 72dvh;
 
+    --x-small-screen-header-height: 30dvh;
+    --x-small-screen-content-height: 62dvh;
+
+    --radius: .3rem;
+
+    --padding-x: .5rem;
+    --padding-y: .2rem;
+
+    --transition-time: .2s;
 
     --text-color: #252222;
-    --background-color: #f5f2f2;
+    --background-color-1: #f5f2f2;
+    --background-color-2: #e5e2e2;
+    --background-color-3: #d5d2d2;
+
 
     color: var(--text-color);
     font-family: sans-serif;
 }
-

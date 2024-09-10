@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color: var(--background-color-1);
 }
 
 h1,
@@ -23,13 +23,39 @@ h3 {
 h1 {
     font-size: xx-large;
 }
+
 h2 {
     font-size: x-large;
 }
+
 h3 {
     font-size: large;
 }
 
 section>h1 {
     border-bottom: 1px solid var(--text-color);
+}
+
+.nav-item {
+    border-radius: var(--radius);
+    transition: var(--transition-time);
+}
+
+.nav-item>a {
+    display: block;
+    padding: var(--padding-y);
+    padding-inline: var(--padding-x);
+    text-decoration: none;
+    color: var(--text-color);
+    overflow: hidden;
+}
+
+
+.nav-item>a:visited {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.nav-item:hover {
+    background-color: var(--background-color-2);
 }
