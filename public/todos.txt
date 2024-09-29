@@ -1,0 +1,6 @@
+.\index.html
+	- l:19    LOW     add a online precense / social media page so we can remove the instagaram and gitub links from the nav 
+.\page\about\index.html
+	- l:34    MEDIUM  add some about text 
+.\style\style.css
+	- l:39    LOW     some times the padding of the nav items is so large that the last item overflows by some small amout 
