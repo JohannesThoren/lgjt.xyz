@@ -112,5 +112,5 @@ td {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: var();
+    gap: var(--flex-gap);
 }
