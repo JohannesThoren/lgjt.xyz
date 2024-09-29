@@ -93,6 +93,8 @@ td {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: var(--flex-gap);
 }
 
 .pill-container>span {
@@ -100,4 +102,11 @@ td {
     padding-inline: var(--padding-x);
     background-color: var(--background-color-3);
     border-radius:  var(--radius-2);
+}
+
+.pill-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--flex-gap);
 }

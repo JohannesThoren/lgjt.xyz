@@ -95,4 +95,13 @@
   .content {
     height: var(--x-small-screen-content-height) !important;
   }
+
+
+}
+
+@media screen and (max-width: 800px) {
+  .card > .header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
