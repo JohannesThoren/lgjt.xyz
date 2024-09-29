@@ -36,7 +36,10 @@ section>h1 {
     border-bottom: 1px solid var(--text-color);
 }
 
+/* todo low: some times the padding of the nav items is so large that the last item overflows by some small amout */
+/* === start of code related to todo === */
 .nav-item {
+    margin-inline: .2dvw;
     border-radius: var(--radius-1);
     transition: var(--transition-time);
 }
@@ -56,6 +59,7 @@ section>h1 {
 .nav-item:hover {
     background-color: var(--background-color-2);
 }
+/* === end of code related to todo === */
 
 .no-decor {
     text-decoration: none;
@@ -101,12 +105,12 @@ td {
     padding: var(--padding-y);
     padding-inline: var(--padding-x);
     background-color: var(--background-color-3);
-    border-radius:  var(--radius-2);
+    border-radius: var(--radius-2);
 }
 
 .pill-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: var(--flex-gap);
+    gap: var();
 }
