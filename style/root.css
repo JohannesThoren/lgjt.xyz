@@ -10,7 +10,9 @@
     --x-small-screen-header-height: 30dvh;
     --x-small-screen-content-height: 62dvh;
 
-    --radius: .3rem;
+    --radius-1: .3rem;
+    --radius-2: 2rem;
+
 
     --padding-x: .5rem;
     --padding-y: .2rem;

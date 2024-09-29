@@ -37,7 +37,7 @@ section>h1 {
 }
 
 .nav-item {
-    border-radius: var(--radius);
+    border-radius: var(--radius-1);
     transition: var(--transition-time);
 }
 
@@ -65,15 +65,39 @@ table {
     border-collapse: collapse;
 }
 
-th,td,tr {
+th,
+td,
+tr {
     min-width: 5dvw;
     width: 100%;
     border-bottom: 1px solid var(--background-color-3);
 
 }
+
 th {
     text-align: left;
 }
+
 td {
     text-align: right;
+}
+
+.card {
+    padding: var(--padding-y);
+    padding-inline: var(--padding-x);
+    background-color: var(--background-color-2);
+    border-radius: var(--radius-1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pill-container>span {
+    padding: var(--padding-y);
+    padding-inline: var(--padding-x);
+    background-color: var(--background-color-3);
+    border-radius:  var(--radius-2);
 }
