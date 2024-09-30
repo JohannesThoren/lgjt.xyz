@@ -1,5 +1,0 @@
-User-agent: googlebot
-Disallow: /public/
-
-User-agent: BingBot
-Disallow: /public/
