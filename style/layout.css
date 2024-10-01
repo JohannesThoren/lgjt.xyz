@@ -41,6 +41,8 @@
   height: var(--footer-height);
   display: flex;
   align-items: flex-end;
+  padding: var(--padding-y);
+  padding-inline: var(--padding-x);
 }
 
 @media screen and (max-width: 800px) {

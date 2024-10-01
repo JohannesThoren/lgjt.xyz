@@ -58,6 +58,7 @@ section>h1 {
 .nav-item:hover {
     background-color: var(--background-color-2);
 }
+
 /* === end of code related to todo === */
 
 .no-decor {
@@ -81,9 +82,12 @@ th {
     text-align: left;
 }
 
-td {
+td:last-child {
     text-align: right;
+    min-width: max(2vw, 4rem);
+
 }
+
 
 .card {
     padding: var(--padding-y);
@@ -112,4 +116,24 @@ td {
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--flex-gap);
+}
+
+.links-list {
+    all: unset
+}
+
+.link-list-item {
+    padding: var(--padding-y);
+    padding-inline: var(--padding-x);
+    list-style: none;
+    margin: var(--flex-gap);
+    margin-inline: unset;
+}
+
+.fill {
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
 }
