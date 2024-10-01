@@ -130,6 +130,11 @@ td:last-child {
     margin-inline: unset;
 }
 
+.link-list-item>* {
+    display: block;
+
+}
+
 .fill {
     width: 100%;
 }
