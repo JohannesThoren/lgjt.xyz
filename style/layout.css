@@ -61,7 +61,7 @@
 
   .content-no-vertical-center-mobile {
     justify-content: unset;
-
+    padding-top: 1rem;
   }
 }
 
