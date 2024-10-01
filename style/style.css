@@ -39,7 +39,6 @@ section>h1 {
 /* todo low: some times the padding of the nav items is so large that the last item overflows by some small amout */
 /* === start of code related to todo === */
 .nav-item {
-    margin-inline: .2dvw;
     border-radius: var(--radius-1);
     transition: var(--transition-time);
 }
