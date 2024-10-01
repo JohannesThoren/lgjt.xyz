@@ -1,7 +1,7 @@
 :root {
-    --header-height: 10dvh;
+    --header-height: 12dvh;
     --header-inline-padding: 1rem;
-    --content-height: 82dvh;
+    --content-height: 80dvh;
     --footer-height: 8dvh;
 
     --small-screen-header-height: 20dvh;
