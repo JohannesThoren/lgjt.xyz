@@ -1,3 +1,4 @@
+import Article from "@/components/Article";
 import { Metadata } from "next/types";
 
 export const metadata: Metadata = {
@@ -8,5 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-	return null;
+	return <Article title={"Work in progress"}>
+		<p>This page is under construction</p>
+	</Article>;
 }
