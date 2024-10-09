@@ -11,7 +11,7 @@ export default function Page() {
 		<div>
 			<Article title={"Contact"}>
 				<p className="text-justify">
-					The only "official" way to contact me is via email. For
+					The only &quot;official&quot; way to contact me is via email. For
 					business-related inquiries, please use{" "}
 					<Link className="text-sky-500" href={"mailto:business@lgjt.xyz"}>
 						business@lgjt.xyz
@@ -21,8 +21,11 @@ export default function Page() {
 						johannes@lgjt.xyz
 					</Link>
 					. Below, you will find the public PGP keys for secure and private
-					email communication.{" "}
+					email communication.
 				</p>
+				<section>
+					<h3 className="text-2xl">PGP Keys</h3>
+				</section>
 			</Article>
 		</div>
 	);
