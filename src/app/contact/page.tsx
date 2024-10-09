@@ -1,6 +1,5 @@
 import Article from "@/components/Article";
 import MailTo from "@/components/MailTo";
-import Link from "next/link";
 import { Metadata } from "next/types";
 
 export const metadata: Metadata = {
