@@ -12,7 +12,8 @@ export default function Page() {
 	return (
 		<Article title={"Links"}>
 			<p>
-				Here is a list of links relevant to me.
+				Here is a list links to my social media accounts and other links
+				relevant to me.
 			</p>
 			<section>
 				<h2 className="text-2xl">Web Precense</h2>
@@ -24,7 +25,9 @@ export default function Page() {
 						<a href="https://www.instagram.com/johannes.thoren/">Instagram</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/in/johannes-thor%C3%A9n-6a3b301a3/">Linkedin</a>
+						<a href="https://www.linkedin.com/in/johannes-thor%C3%A9n-6a3b301a3/">
+							Linkedin
+						</a>
 					</li>
 					<li>
 						<a href="https://discord.com/users/220112438249521156">Discord</a>
