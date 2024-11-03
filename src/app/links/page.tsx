@@ -38,7 +38,7 @@ export default function Page() {
 				<h2 className="text-2xl">Projects</h2>
 				<ul className="dark:[&>li]:bg-stone-800 [&>li]:bg-stone-200 hover:[&>li]:bg-stone-300 dark:hover:[&>li]:bg-stone-700 text-center [&>li>a]:block [&>li]:rounded-md [&>li>a]:py-2 [&>li>a]:px-2 [&>li]:my-2 [&>li]:transition-colors">
 					<li>
-						<a href="https://dev.lgjt.xyz">URLShortener (In Development)</a>
+						<a href="https://url.lgjt.xyz">URLShortener (In Development)</a>
 					</li>
 				</ul>
 			</section>
