@@ -20,7 +20,7 @@ export default function Page() {
 				<ul className="dark:[&>li]:bg-stone-800 [&>li]:bg-stone-200 hover:[&>li]:bg-stone-300 dark:hover:[&>li]:bg-stone-700 text-center [&>li>a]:block [&>li]:rounded-md [&>li>a]:py-2 [&>li>a]:px-2 [&>li]:my-2 [&>li]:transition-colors">
 					<li>
 						<a
-							rel="noopener noreferrer"
+							rel="noopener noreferrer nofollow"
 							href="https://github.com/JohannesThoren"
 						>
 							Github
@@ -28,7 +28,7 @@ export default function Page() {
 					</li>
 					<li>
 						<a
-							rel="noopener noreferrer"
+							rel="noopener noreferrer nofollow"
 							href="https://www.instagram.com/johannes.thoren/"
 						>
 							Instagram
@@ -36,7 +36,7 @@ export default function Page() {
 					</li>
 					<li>
 						<a
-							rel="noopener noreferrer"
+							rel="noopener noreferrer nofollow"
 							href="https://www.linkedin.com/in/johannes-thor%C3%A9n-6a3b301a3/"
 						>
 							Linkedin
@@ -44,7 +44,7 @@ export default function Page() {
 					</li>
 					<li>
 						<a
-							rel="noopener noreferrer"
+							rel="noopener noreferrer nofollow"
 							href="https://discord.com/users/220112438249521156"
 						>
 							Discord
@@ -56,7 +56,7 @@ export default function Page() {
 				<h2 className="text-2xl">Projects</h2>
 				<ul className="dark:[&>li]:bg-stone-800 [&>li]:bg-stone-200 hover:[&>li]:bg-stone-300 dark:hover:[&>li]:bg-stone-700 text-center [&>li>a]:block [&>li]:rounded-md [&>li>a]:py-2 [&>li>a]:px-2 [&>li]:my-2 [&>li]:transition-colors">
 					<li>
-						<a rel="noopener noreferrer" href="https://url.lgjt.xyz">
+						<a rel="noopener noreferrer nofollow" href="https://url.lgjt.xyz">
 							URLShortener (In Development)
 						</a>
 					</li>
