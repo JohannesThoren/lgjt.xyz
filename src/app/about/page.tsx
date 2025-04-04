@@ -26,9 +26,9 @@ export default function Page() {
 				<p className="text-justify">
 					Education wise i graduated from upper secondary 2022. After upper
 					secondary i went to Karlstad University and studied one year of CS.
-					During the summer 2023 i got a job offer from Telia Company AB to work
-					as a network engineer, which i still do. So in short the highest level
-					of education i have completed is upper Secondary.
+					During the summer 2023 i got a job offer to work as a network
+					engineer, which i still do. So in short the highest level of education
+					i have completed is upper Secondary.
 				</p>
 			</section>
 
@@ -38,9 +38,7 @@ export default function Page() {
 					When developing software i always try to aim for building software
 					that is simple to maintain and simple to use. Another person should be
 					able to look at the code and understand exactly what the code does.
-					And the end user should feel like it is natural to use. I also try to
-					ask my self why im developing a pice of software does it have a use
-					case.
+					And the end user should feel like it is natural to use.
 				</p>
 			</section>
 		</Article>

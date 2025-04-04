@@ -17,8 +17,7 @@ export default function Page() {
 					The only &quot;official&quot; way to contact me is via email. For
 					business-related inquiries, please use{" "}
 					<MailTo mail={"business@lgjt.xyz"} />. For any other contact, please
-					use <MailTo mail={"johannes@lgjt.xyz"} />. Below, you will find the
-					public PGP keys for secure and private email communication.
+					use <MailTo mail={"johannes@lgjt.xyz"} />. 
 				</p>
 			</Article>
 		</div>
