@@ -57,7 +57,15 @@ export default function Page() {
 				<ul className="dark:[&>li]:bg-stone-800 [&>li]:bg-stone-200 hover:[&>li]:bg-stone-300 dark:hover:[&>li]:bg-stone-700 text-center [&>li>a]:block [&>li]:rounded-md [&>li>a]:py-2 [&>li>a]:px-2 [&>li]:my-2 [&>li]:transition-colors">
 					<li>
 						<a rel="noopener noreferrer nofollow" href="https://url.lgjt.xyz">
-							URLShortener (In Development)
+							URLShortener (WIP)
+						</a>
+					</li>
+					<li>
+						<a
+							rel="noopener noreferrer nofollow"
+							href="https://securenote.lgjt.xyz"
+						>
+							Secure Note (WIP)
 						</a>
 					</li>
 				</ul>
