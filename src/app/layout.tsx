@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Body from "@/components/LGJT-NEXT-COMPONENTS/Body";
+import Main from "@/components/LGJT-NEXT-COMPONENTS/Main";
+import Header from "@/components/LGJT-NEXT-COMPONENTS/Header";
+import Link from "next/link";
+import { BreadCrumb } from "@/components/BreadCrumb";
+import Footer from "@/components/LGJT-NEXT-COMPONENTS/Footer";
+import Nav from "@/components/LGJT-NEXT-COMPONENTS/Nav";
 
 export const metadata: Metadata = {
 	title: {
@@ -60,11 +64,20 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<Body>
-				<Header />
-				<main className="flex-grow flex justify-center items-center">
-					{children}
-				</main>
-				<Footer />
+				<Header>
+					<h1 className="text-4xl w-full">
+						<Link href={"/"}>LGJT.XYZ</Link>
+						<BreadCrumb />
+					</h1>
+					<Nav>
+						<Link href={"/contact"}>Contact</Link>
+						<Link href={"/about"}>About</Link>
+						<Link href={"/blog"}>Blog</Link>
+						<Link href={"/links"}>Links</Link>
+					</Nav>
+				</Header>
+				<Main>{children}</Main>
+				<Footer>copyright &copy; 2025 Johannes Thorén</Footer>
 			</Body>
 		</html>
 	);
