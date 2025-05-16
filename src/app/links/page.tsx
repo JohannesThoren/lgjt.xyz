@@ -1,4 +1,6 @@
 import Article from "@/components/LGJT-NEXT-COMPONENTS/Article";
+import H2 from "@/components/LGJT-NEXT-COMPONENTS/H2";
+import P from "@/components/LGJT-NEXT-COMPONENTS/P";
 import { Metadata } from "next/types";
 
 export const metadata: Metadata = {
@@ -11,12 +13,12 @@ export const metadata: Metadata = {
 export default function Page() {
 	return (
 		<Article title={"Links"}>
-			<p>
+			<P>
 				Here is a list links to my social media accounts and other links
 				relevant to me.
-			</p>
+			</P>
 			<section>
-				<h2 className="text-2xl">Web Precense</h2>
+				<H2>Web Precense</H2>
 				<ul className="dark:[&>li]:bg-stone-800 [&>li]:bg-stone-200 hover:[&>li]:bg-stone-300 dark:hover:[&>li]:bg-stone-700 text-center [&>li>a]:block [&>li]:rounded-md [&>li>a]:py-2 [&>li>a]:px-2 [&>li]:my-2 [&>li]:transition-colors">
 					<li>
 						<a
@@ -53,7 +55,7 @@ export default function Page() {
 				</ul>
 			</section>
 			<section>
-				<h2 className="text-2xl">Projects</h2>
+				<H2>Projects</H2>
 				<ul className="dark:[&>li]:bg-stone-800 [&>li]:bg-stone-200 hover:[&>li]:bg-stone-300 dark:hover:[&>li]:bg-stone-700 text-center [&>li>a]:block [&>li]:rounded-md [&>li>a]:py-2 [&>li>a]:px-2 [&>li]:my-2 [&>li]:transition-colors">
 					<li>
 						<a rel="noopener noreferrer nofollow" href="https://url.lgjt.xyz">
