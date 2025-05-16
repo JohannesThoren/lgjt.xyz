@@ -1,19 +1,8 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
-const geistSans = localFont({
-	src: "./fonts/GeistVF.woff",
-	variable: "--font-geist-sans",
-	weight: "100 900",
-});
-const geistMono = localFont({
-	src: "./fonts/GeistMonoVF.woff",
-	variable: "--font-geist-mono",
-	weight: "100 900",
-});
+import Body from "@/components/LGJT-NEXT-COMPONENTS/Body";
 
 export const metadata: Metadata = {
 	title: {
@@ -70,15 +59,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-100 text-stone-900 dark:text-stone-100 dark:bg-stone-900 min-h-screen flex flex-col`}
-			>
+			<Body>
 				<Header />
 				<main className="flex-grow flex justify-center items-center">
 					{children}
 				</main>
 				<Footer />
-			</body>
+			</Body>
 		</html>
 	);
 }
