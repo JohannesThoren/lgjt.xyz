@@ -7,6 +7,7 @@ import Link from "next/link";
 import { BreadCrumb } from "@/components/BreadCrumb";
 import Footer from "@/components/LGJT-NEXT-COMPONENTS/Footer";
 import Nav from "@/components/LGJT-NEXT-COMPONENTS/Nav";
+import H1 from "@/components/LGJT-NEXT-COMPONENTS/H1";
 
 export const metadata: Metadata = {
 	title: {
@@ -65,10 +66,10 @@ export default function RootLayout({
 		<html lang="en">
 			<Body>
 				<Header>
-					<h1 className="text-4xl w-full">
+					<H1>
 						<Link href={"/"}>LGJT.XYZ</Link>
 						<BreadCrumb />
-					</h1>
+					</H1>
 					<Nav>
 						<Link href={"/contact"}>Contact</Link>
 						<Link href={"/about"}>About</Link>
