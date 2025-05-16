@@ -13,7 +13,6 @@ export default async function getPostData(filename: string) {
 	);
 
 	const matterResult = matter(fileContent);
-	console.log(matterResult);
 	const processedContent = await remark()
 		.use(html)
 		.process(matterResult.content);
@@ -21,6 +20,7 @@ export default async function getPostData(filename: string) {
 	const contentHtml = processedContent.toString();
 
 	return {
+		filename: filename,
 		contentHtml,
 		...matterResult.data,
 	};
