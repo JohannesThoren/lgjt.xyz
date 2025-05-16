@@ -1,0 +1,3 @@
+[submodule "src/components/LGJT-NEXT-COMPONENTS"]
+    path = src/components/LGJT-NEXT-COMPONENTS
+    url = git@github.com:JohannesThoren/LGJT-NEXT-COMPONENTS.git
