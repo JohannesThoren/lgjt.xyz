@@ -1,4 +1,4 @@
-import Article from "@/components/Article";
+import Article from "@/components/LGJT-NEXT-COMPONENTS/Article";
 
 export default function Home() {
 	return (

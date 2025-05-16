@@ -1,4 +1,4 @@
-import Article from "@/components/Article";
+import Article from "@/components/LGJT-NEXT-COMPONENTS/Article";
 import { Metadata } from "next/types";
 
 export const metadata: Metadata = {
