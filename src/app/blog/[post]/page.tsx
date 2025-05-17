@@ -29,6 +29,6 @@ export function generateStaticParams() {
 	const dir = readdirSync(process.cwd() + "/public/posts");
 
 	const files = dir.map((file) => file.replace(".md", ""));
-	return files.map((file) => ({ post: encodeURIComponent(file) }));
+	return files.map((file) => ({ post: file }));
 	// return [{ post: "/blog/First%20Post" }];
 }

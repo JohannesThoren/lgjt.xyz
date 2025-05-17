@@ -1,5 +1,3 @@
-"use server";
-
 import { readFileSync } from "fs";
 import { POST_DIR } from "../consts";
 import matter from "gray-matter";
@@ -15,7 +13,8 @@ interface IPost {
 }
 
 export default async function getPostData(filename: string): Promise<IPost> {
-	const fn = decodeURIComponent(filename);
+	const fn = decodeURI(filename);
+	console.log(fn);
 
 	const fileContent = readFileSync(
 		`${process.cwd() + POST_DIR + "/" + fn}.md`,
