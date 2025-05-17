@@ -1,6 +1,6 @@
 import Article from "@/components/LGJT-NEXT-COMPONENTS/Article";
 import P from "@/components/LGJT-NEXT-COMPONENTS/P";
-import getPostData from "./[post]/getPostData";
+import getPostData from "./getPostData";
 import { readdirSync } from "fs";
 import Link from "next/link";
 
@@ -13,12 +13,11 @@ export default async function Page() {
 		<Article title={"Blog"}>
 			<div className="flex flex-col gap-2">
 				{data.map((p) => (
-					<Link
-						className="bg-stone-800 p-2 rounded-md"
-						key={p.filename}
-						href={`/blog/${p.filename}`}
-					>
-						{p.title || "Post"} - {p.date || "0000/00/00"}
+					<Link key={p.filename} href={`/blog/${p.filename}`}>
+						<div className="bg-stone-800 p-2 rounded-md flex justify-between">
+							<P>{p.title}</P>
+							<P>{p.date}</P>
+						</div>
 					</Link>
 				))}
 			</div>

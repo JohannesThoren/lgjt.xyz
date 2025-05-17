@@ -1,14 +1,24 @@
 "use server";
 
 import { readFileSync } from "fs";
-import { POST_DIR } from "../../consts";
+import { POST_DIR } from "../consts";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 
-export default async function getPostData(filename: string) {
+interface IPost {
+	filename: string;
+	contentHtml: string;
+	title?: string;
+	date?: string;
+	author?: string;
+}
+
+export default async function getPostData(filename: string): Promise<IPost> {
+	const fn = decodeURIComponent(filename);
+
 	const fileContent = readFileSync(
-		`${process.cwd() + POST_DIR + "/" + filename}.md`,
+		`${process.cwd() + POST_DIR + "/" + fn}.md`,
 		"utf-8",
 	);
 
