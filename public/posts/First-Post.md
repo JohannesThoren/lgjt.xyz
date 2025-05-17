@@ -19,4 +19,6 @@ But as you can see, this blog *does* have dynamic routes for the posts. To make 
 
 For some reason, though, Next.js couldn’t understand that `/blog/First Post` should really be `/blog/First%20Post`. That tiny issue ended up taking me five hours to fix — with help from both friends and ChatGPT.
 
+But when that was all said an done i decided to just thorw all that work away and just use "-" instead of spaces 🙂.
+
 So thank you, friend and ChatGPT ❤️
