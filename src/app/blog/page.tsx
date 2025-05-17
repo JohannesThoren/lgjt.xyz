@@ -9,6 +9,13 @@ export default async function Page() {
 	const files = dir.map((file) => file.replace(".md", ""));
 	const data = await Promise.all(files.map(getPostData));
 
+	data.sort((a, b) => {
+		return (
+			new Date(b.date ? b.date : "1970-01-01").getTime() -
+			new Date(a.date ? a.date : "1970-01-01").getTime()
+		);
+	});
+
 	return (
 		<Article title={"Blog"}>
 			<div className="flex flex-col gap-2">

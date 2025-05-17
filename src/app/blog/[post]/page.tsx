@@ -2,6 +2,7 @@ import Article from "@/components/LGJT-NEXT-COMPONENTS/Article";
 import getPostData from "../getPostData";
 import { readdirSync } from "fs";
 import "./style.css";
+import P from "@/components/LGJT-NEXT-COMPONENTS/P";
 
 export default async function Page({
 	params,
@@ -17,6 +18,9 @@ export default async function Page({
 				className="post"
 				dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
 			></div>
+			<P>
+				Author: {postData.author}, Last Update: {postData.date}
+			</P>
 		</Article>
 	);
 }

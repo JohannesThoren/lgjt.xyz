@@ -1,6 +1,16 @@
+.post > * {
+	@apply my-3;
+}
+
 .post > h1 {
-	@apply text-4xl;
+	@apply text-3xl;
 }
 .post > h2 {
 	@apply text-2xl;
+}
+.post > h3 {
+	@apply text-xl;
+}
+.post > p {
+	text-align: justify;
 }
