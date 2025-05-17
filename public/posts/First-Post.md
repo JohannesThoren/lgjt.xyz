@@ -9,16 +9,16 @@ date: 2025/05/16
 Hi! I just got the blog page working, so it looks like I need to create a blog post. Maybe I should introduce myself.
 My name is Johannes Thorén and I’m a hobby developer currently working as a network engineer at a telecom company in Sweden. My hobbies are a mix of food, gaming, tech, and photography — and I’ll probably write about all of them here.
 
-So, this is not strictly a tech or dev-focused blog, but of course I’ll be talking about that too.
+So, this won’t be strictly a tech or dev-focused blog, but of course I’ll be talking about that too.
 
 ## The First Problem to Rant About
 
-When developing this blog, I used Next.js — just like on the rest of the site. I also statically export the page so I can host it on Cloudflare Pages. Because of that, I’m unable to use dynamic routes at runtime.
+When developing this blog, I used Next.js — just like on the rest of the site. I also statically export the site so I can host it on Cloudflare Pages. That means I can't use dynamic server-side routes — everything needs to be pre-rendered at build time.
 
-But as you can see, this blog *does* have dynamic routes for the posts. To make that work, I need to pre-generate the params/routes for each post.
+But as you can see, this blog *does* use dynamic-looking routes for individual posts. To make that work with static export, I need to pre-generate all the post paths using `getStaticPaths`.
 
-For some reason, though, Next.js couldn’t understand that `/blog/First Post` should really be `/blog/First%20Post`. That tiny issue ended up taking me five hours to fix — with help from both friends and ChatGPT.
+For some reason, though, Next.js didn’t handle spaces in URLs the way I expected. I thought `/blog/First Post` would automatically be encoded to `/blog/First%20Post`, but that wasn't the case. That small issue ended up taking me five hours to debug — with help from both friends and ChatGPT.
 
-But when that was all said an done i decided to just thorw all that work away and just use "-" instead of spaces 🙂.
+And after all that, I decided to throw that work out and just replace spaces with hyphens in the URLs 🙂.
 
 So thank you, friend and ChatGPT ❤️
