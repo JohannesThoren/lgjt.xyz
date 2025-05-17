@@ -17,6 +17,6 @@ When developing this blog, I used Next.js — just like on the rest of the site.
 
 But as you can see, this blog *does* have dynamic routes for the posts. To make that work, I need to pre-generate the params/routes for each post.
 
-For some reason, though, Next.js couldn’t understand that `'/blog/First Post'` should really be `'/blog/First%20Post'`. That tiny issue ended up taking me five hours to fix — with help from both friends and ChatGPT.
+For some reason, though, Next.js couldn’t understand that `/blog/First Post` should really be `/blog/First%20Post`. That tiny issue ended up taking me five hours to fix — with help from both friends and ChatGPT.
 
 So thank you, friend and ChatGPT ❤️
