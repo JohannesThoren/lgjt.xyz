@@ -22,3 +22,7 @@ For some reason, though, Next.js didn’t handle spaces in URLs the way I expect
 And after all that, I decided to throw that work out and just replace spaces with hyphens in the URLs 🙂.
 
 So thank you, friend and ChatGPT ❤️
+
+Thats my small introduction and rant about making a blog. This is a short post but fear not there will be more and longer posts in the future.
+
+Bye for now!
