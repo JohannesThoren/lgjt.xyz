@@ -18,8 +18,9 @@ export default async function Page({
 				className="post"
 				dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
 			></div>
-			<P>
-				Author: {postData.author}, Last Update: {postData.date}
+			<P className="text-xs">
+				Author: {postData.author}, Written: {postData.date}, Last Update:{" "}
+				{postData.update}
 			</P>
 		</Article>
 	);

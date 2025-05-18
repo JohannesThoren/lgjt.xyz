@@ -2,6 +2,7 @@
 author: Johannes Thorén
 title: First Post
 date: 2025/05/16
+update: 2025/05/18
 ---
 
 # English
@@ -42,7 +43,7 @@ Så det här kommer inte vara en renodlad tech- eller dev-blogg, men självklart
 
 När jag utvecklade den här bloggen använde jag Next.js — precis som på resten av sidan. Jag exporterar även sidan statiskt så att jag kan hosta den på Cloudflare Pages. Det innebär att jag inte kan använda dynamiska server-side routes — allt måste vara förgenererat vid build time.
 
-Men som du ser använder den här bloggen *dynamiskt utseende* routes för individuella inlägg. För att få det att fungera med statisk export behöver jag förgenerera alla post paths med hjälp av `getStaticPaths`.
+Men som du ser använder den här bloggen *dynamiska* routes för individuella inlägg. För att få det att fungera med statisk export behöver jag förgenerera alla post paths med hjälp av `getStaticPaths`.
 
 Av någon anledning hanterade dock inte Next.js mellanslag i URL:er som jag förväntade mig. Jag trodde att `/blog/First Post` automatiskt skulle bli till `/blog/First%20Post`, men så var det inte. Det lilla problemet tog mig fem timmar att felsöka — med hjälp från både vänner och ChatGPT.
 

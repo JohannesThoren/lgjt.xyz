@@ -10,6 +10,7 @@ interface IPost {
 	title?: string;
 	date?: string;
 	author?: string;
+	update?: string;
 }
 
 export default async function getPostData(filename: string): Promise<IPost> {
