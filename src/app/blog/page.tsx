@@ -18,6 +18,11 @@ export default async function Page() {
 
 	return (
 		<Article title={"Blog"}>
+			<P>
+				Hello! Welcome to my blog, here i will upload random posts about my life
+				and intrests. So if you think that intresting feel free and read the
+				posts.
+			</P>
 			<div className="flex flex-col gap-2">
 				{data.map((p) => (
 					<Link key={p.filename} href={`/blog/${p.filename}`}>
