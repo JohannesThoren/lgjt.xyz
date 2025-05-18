@@ -54,3 +54,5 @@ Så tack, vän och ChatGPT ❤️
 Det här var min lilla introduktion och rant om att bygga en blogg. Det är ett kort inlägg, men frukta inte — det kommer fler och längre inlägg framöver.
 
 Hej så länge!
+
+(Text translated and touched up with AI)
