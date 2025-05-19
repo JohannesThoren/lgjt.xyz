@@ -12,6 +12,7 @@ export default async function Page() {
 
 	data.sort((a, b) => {
 		return (
+			// TODO: kanske borde se över datum hanteringen. typ inte defaulta till 1970-01-01
 			new Date(b.date ? b.date : "1970-01-01").getTime() -
 			new Date(a.date ? a.date : "1970-01-01").getTime()
 		);
