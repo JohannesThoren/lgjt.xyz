@@ -26,3 +26,5 @@ I alla videor på nätet sitter folk och är överdrivet exalterade över den. O
 Men men, självklart får folk köpa, äta och gilla vad de vill. Men att köpa något bara för att det blivit en grej på nätet känns ändå lite onödigt. Det hela ger mig lite Prime-vibbar – superdyrt, massor av hype, och sen sänks priserna rejält när man fått all uppmärksamhet man behövde för att kränga produkten.
 
 Det var min rant för idag. Tack och hej! :)
+
+(Text translated and touched up with AI)
