@@ -5,9 +5,7 @@ date: 2025/05/16
 update: 2025/05/18
 ---
 
-# Swedish
-
-## Det första inlägget
+# Det första inlägget
 
 Hej! Jag har precis fått blogsidan att fungera, så det verkar som att jag behöver skriva ett blogginlägg. Kanske borde jag börja med att presentera mig själv.
 Jag heter Johannes Thorén och är en hobbyutvecklare som för närvarande jobbar som nätverkstekniker på ett telekombolag i Sverige. Mina hobbys är en blandning av mat, gaming, teknik och fotografi — och jag kommer troligen att skriva om allt det här.

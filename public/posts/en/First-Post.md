@@ -5,9 +5,7 @@ date: 2025/05/16
 update: 2025/05/18
 ---
 
-# English
-
-## The first post
+# The first post
 
 Hi! I just got the blog page working, so it looks like I need to create a blog post. Maybe I should introduce myself.
 My name is Johannes Thorén and I’m a hobby developer currently working as a network engineer at a telecom company in Sweden. My hobbies are a mix of food, gaming, tech, and photography — and I’ll probably write about all of them here.
