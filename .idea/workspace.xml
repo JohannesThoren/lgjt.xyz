@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4548c40c-308b-4586-bd82-d2d492baa070" name="Changes" comment="Separate multilingual content for &quot;Dubai Chocolate&quot; into distinct English and Swedish Markdown files." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="post-1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xmsWzVXs4qjLah4Okha8GCCMMo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/johannesthoren/Dev/lgjt.xyz/public/posts/sv",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.Next.js: server-side.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "/Users/johannesthoren/Dev/lgjt.xyz/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/posts/sv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/posts/en" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4548c40c-308b-4586-bd82-d2d492baa070" name="Changes" comment="" />
+      <created>1748554619207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748554619207</updated>
+      <workItem from="1748554620465" duration="978000" />
+      <workItem from="1748949566569" duration="37000" />
+      <workItem from="1748949613099" duration="499000" />
+    </task>
+    <task id="LOCAL−00001" summary="Added multi-language support for blog posts (English and Swedish)">
+      <option name="closed" value="true" />
+      <created>1748554728460</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1748554728460</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Added IntelliJ IDEA project configuration and adjusted blog posts for consistent formatting and structure">
+      <option name="closed" value="true" />
+      <created>1748555096980</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1748555096980</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Add Swedish version of &quot;From PC to Mac&quot; blog post">
+      <option name="closed" value="true" />
+      <created>1748555218607</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1748555218607</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Separate multilingual content for &quot;Dubai Chocolate&quot; into distinct English and Swedish Markdown files.">
+      <option name="closed" value="true" />
+      <created>1748949821480</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1748949821480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added multilingual support for blog posts" />
+    <MESSAGE value="Added multi-language support for blog posts (English and Swedish)" />
+    <MESSAGE value="Added IntelliJ IDEA project configuration and adjusted blog posts for consistent formatting and structure" />
+    <MESSAGE value="Add Swedish version of &quot;From PC to Mac&quot; blog post" />
+    <MESSAGE value="Separate multilingual content for &quot;Dubai Chocolate&quot; into distinct English and Swedish Markdown files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate multilingual content for &quot;Dubai Chocolate&quot; into distinct English and Swedish Markdown files." />
+  </component>
+</project>
